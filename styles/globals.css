@@ -1,3 +1,18 @@
+:root {
+  --background:  var(--color10);
+  --text: #EDEDED;
+  --color1: #00193A;
+  --color2: #002B53;
+  --color3: #023F73;
+  --color4: #034780;
+  --color5: #7A0213;
+  --color6: #A10220;
+  --color7: #BF0A26;
+  --color8: #CD0C2B;
+  --color9: #131313;
+  --color10: #262626;
+}
+
 html,
 body {
   padding: 0;
@@ -13,14 +28,16 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  color: var(--text);
+  background: var(--background);
+}
+
+#__next{
+  display: flex;
+  flex-direction: row;
 }
