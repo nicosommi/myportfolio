@@ -46,7 +46,7 @@ const Projects = () => {
             type={"square"}
           >
             <p>
-              Su función es transformar un texto para &apos;encriptarlo&apos; y
+              Su función es transformar un texto para <i>encriptarlo</i> y
               viceversa.
             </p>
           </ProjectCard>
