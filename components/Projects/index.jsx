@@ -18,8 +18,10 @@ const Projects = () => {
           repoLink="https://github.com/ksommi/project-class2"
           type={"full"}
         >
-          Esta App que simula ser un e-commerce muestra los productos, los
-          filtra por categoria y se maneja con un carrito de compras.
+          <p>
+            Esta App que simula ser un e-commerce muestra los productos, los
+            filtra por categoria y se maneja con un carrito de compras.
+          </p>
         </ProjectCard>
         <div className="projectCardsSquares">
           <ProjectCard
@@ -30,8 +32,10 @@ const Projects = () => {
             repoLink="https://github.com/ksommi/Ahorcado"
             type={"square"}
           >
-            Consta del famoso juego del ahorcado, el cual se puede jugar con
-            teclado fisico en PC y con un teclado tactil en Mobile.
+            <p>
+              Consta del famoso juego del ahorcado, el cual se puede jugar con
+              teclado fisico en PC y con un teclado tactil en Mobile.
+            </p>
           </ProjectCard>
           <ProjectCard
             title="Desafío Nº 1 de JavaScript del proyecto ONE (Oracle Next Education) en
@@ -41,7 +45,9 @@ const Projects = () => {
             repoLink="https://github.com/ksommi/Encriptador"
             type={"square"}
           >
-            Su función es transformar un texto para "encriptarlo" y viceversa.
+            <p>
+              Su función es transformar un texto para 'encriptarlo' y viceversa.
+            </p>
           </ProjectCard>
         </div>
       </div>
