@@ -1,3 +1,16 @@
-export default function Projects() {
-  return <div>Projects</div>;
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Projects from "../components/Projects";
+
+export default function ProjectsPage() {
+  return (
+    <div>
+      <Head>
+        <title>Kevin Sommi</title>
+      </Head>
+      <main className={styles.main}>
+        <Projects />
+      </main>
+    </div>
+  );
 }

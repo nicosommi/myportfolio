@@ -8,10 +8,16 @@
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
-  min-width: 80vw;
-  flex: 1;
+  width: calc(100% - 170px);
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  top: 0;
+  left: 170px;
+  padding: 0 10px ;
+}
+
+.skills{
+  min-height: 100vh;
 }

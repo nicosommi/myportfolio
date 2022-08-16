@@ -1,3 +1,16 @@
-export default function Contact() {
-  return <div>Contact</div>;
+import Head from "next/head";
+import Contact from "../components/Contact";
+import styles from "../styles/Home.module.css";
+
+export default function ContactPage() {
+  return (
+    <div>
+      <Head>
+        <title>Kevin Sommi</title>
+      </Head>
+      <main className={styles.main}>
+        <Contact />
+      </main>
+    </div>
+  );
 }

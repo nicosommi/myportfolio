@@ -1,0 +1,22 @@
+.aboutContainer {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.aboutContainer h2 {
+    text-align: center;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.aboutMeText {
+    font-size: 17px;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 400px;
+}

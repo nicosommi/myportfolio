@@ -1,39 +1,51 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import linkedinSVG from "/public/svg/linkedin-brands.svg";
+import githubSVG from "/public/svg/square-github-brands.svg";
 
 const SideBar = () => {
   return (
     <div className="sidebarContainer">
-      <p className="logo">K</p>
+      <p className="logo">KS</p>
       <ul className="listContainer">
         <Link href="/">
           <li>
-            <a>Home</a>
+            <a>Inicio</a>
           </li>
         </Link>
         <Link href="/skills">
           <li>
-            <a>Skills</a>
+            <a>Habilidades</a>
           </li>
         </Link>
         <Link href="/projects">
           <li>
-            <a>Projects</a>
+            <a>Proyectos</a>
           </li>
         </Link>
         <Link href="/about">
           <li>
-            <a>About me</a>
+            <a>Acerca de mi</a>
           </li>
         </Link>
         <Link href="/contact">
           <li>
-            <a>Contact</a>
+            <a>Contacto</a>
           </li>
         </Link>
       </ul>
       <div className="socialContainer">
-        <p>Redes sociales</p>
+        <Link href="https://www.linkedin.com/in/ksommi/">
+          <a target="_blank">
+            <Image src={linkedinSVG} width={30} height={30} />
+          </a>
+        </Link>
+        <Link href="https://github.com/ksommi">
+          <a target="_blank">
+            <Image src={githubSVG} width={30} height={30} />
+          </a>
+        </Link>
       </div>
     </div>
   );
