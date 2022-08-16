@@ -7,13 +7,13 @@ const Contact = () => {
       <div className="formContainer">
         <h2>Contacto</h2>
         <form action="/send-data-here" method="post" className="formContainer">
-          <label for="name">Nombre y apellido</label>
+          <label htmlFor="name">Nombre y apellido</label>
           <input type="text" id="name" name="name" required />
           <span></span>
-          <label for="email">E-mail</label>
+          <label htmlFor="email">E-mail</label>
           <input type="email" id="email" name="email" required />
           <span></span>
-          <label for="message">Mensaje</label>
+          <label htmlFor="message">Mensaje</label>
           <textarea id="message" name="message" required />
           <span></span>
           <button type="submit">Enviar!</button>
