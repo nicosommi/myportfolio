@@ -9,7 +9,7 @@ const ProjectCard = ({ title, img, demoLink, repoLink, children, type }) => {
       </div>
       <div className="projectCardSingleRightSide">
         <h3>{title}</h3>
-        <p>{children}</p>
+        <div>{children}</div>
         <div className="projectCardSingleBtnContainer">
           <Link href={demoLink}>
             <a className="btn" target="_blank">
